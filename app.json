@@ -1,20 +1,10 @@
 {
-  "name": "botchan.py",
-  "description": "discord selfbot",
-  "website": "",
-  "repository": "github.com/Yoyoknuckles/firstdiscordbot.py",
-  "env": {
-    "TOKEN": {
-        "description": "Discord token used to log in",
-        "required": true
-    },
-    "PREFIX": {
-      "description": "Command prefix to use.",
-      "required": true
-    },
-    "GITHUBTOKEN": {
-      "description": "Token for github api usage.",
-      "required": true
+  "apps": [
+    {
+      "name": "botchan.py",
+      "script": "index.py",
+      "interpreter": "python3.6",
+      "interpreter_args": "-u"
     }
-  }
+  ]
 }
