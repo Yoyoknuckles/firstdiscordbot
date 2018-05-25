@@ -47,4 +47,4 @@ async def on_message(message):
     elif message.content == "it's gay":
         await client.send_message(message.channel, "grrrrr")
 
-client.login(process.env.BOT_TOKEN);
+
