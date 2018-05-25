@@ -2,7 +2,6 @@
   "apps": [
     {
       "name": "botchan.py",
-      "script": "index.py",
       "interpreter": "python3.6",
       "interpreter_args": "-u"
     }
